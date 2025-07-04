@@ -1,0 +1,12 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+}
+
+.buttonWrapper {
+  max-width: 600px;
+  width: 100%;
+  display: flex;
+  gap: 20px;
+}
