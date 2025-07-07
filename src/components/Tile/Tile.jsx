@@ -16,7 +16,7 @@ export function Tile({ text, status, onClick }) {
       };
       node.addEventListener('animationend', handler);
       return () => {
-        node.addEventListener('animationend', handler);
+        node.removeEventListener('animationend', handler);
       };
     }
   }, []);
